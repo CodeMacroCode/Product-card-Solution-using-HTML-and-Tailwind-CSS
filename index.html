@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Product preview card component</title>
+</head>
+<body class="bg-cream flex justify-center items-center min-h-screen">
+  <section class="bg-white flex max-[376px]:flex-col rounded-lg max-sm:pb-4">
+    <img class="w-60 max-[376px]:object-cover max-sm:w-72 max-[376px]:h-48 rounded-tl-lg max-[376px]:rounded-tr-lg max-[376px]:rounded-tl-lg rounded-bl-lg max-[376px]:rounded-bl-none" src="images/image-product-desktop.jpg" alt="Perfume Image">
+    <article class="w-60 max-sm:w-72 flex flex-col px-6">
+      <span class="font-montserrat font-medium text-xxs mt-6 text-dark-grayish-blue">P E R F U M E</span>
+
+      <span class="font-fraunces pr-3 mt-4 max-sm:mt-2 font-bold text-2xl leading-7">Gabrielle Essence Eau De Parfum</span>
+
+      <span class="text-xs mt-4 max-sm:mt-3 font-montserrat leading-5 text-dark-grayish-blue">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+      Perfumer-Creator for the House of CHANEL.</span>
+      
+      <span class="mt-5 flex items-center">
+        <span class="font-fraunces text-dark-cyan font-bold text-2xl">$149.99</span> 
+        <span class="text-xs ml-4 text-dark-grayish-blue line-through">$169.99</span>
+      </span>
+      <button class="bg-dark-cyan active:bg-very-dark-cyan mt-4 h-9 rounded-lg flex justify-center items-center text-xs font-medium text-white"><img class="size-4 mr-3 invert" src="images/icons8-shopping-cart-24.png">Add to Cart</button>
+    </article>
+  </section>
+</body>
+</html>
